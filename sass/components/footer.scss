@@ -1,0 +1,34 @@
+footer {
+    width: 100%;
+    height: 100px;
+    background: #444;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 15px;
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            background: grey;
+            text-align: center;
+
+            a {
+                padding: 10px;
+                font-size: 30px;
+                color: white;
+            }
+        }
+    }
+}
