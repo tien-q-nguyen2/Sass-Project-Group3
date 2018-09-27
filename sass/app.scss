@@ -1,6 +1,5 @@
 @import './base/variables.scss';
 
-
 .wrapper {
     width: 80%;
     margin: 0 auto;
@@ -38,7 +37,7 @@
     }
 }
 
-.main-site-header {
+%header {
     width: 100%;
     height: 400px;
     background: lightgrey;
@@ -47,6 +46,19 @@
         margin: 0;
         font-size: 2.5em;
         padding-top: 150px;
+    }
+}
+
+.main-site-header {
+    @extend %header;
+}
+
+.smaller-header {
+    @extend %header;
+    height: 250px;
+
+    h1 {
+        padding-top: 100px;
     }
 }
 
