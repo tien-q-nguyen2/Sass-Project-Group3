@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Montserrat:400,700');
+
 // ***************************
 // Colors
 // ***************************
+$primary-color: #087e8b;
+$secondary-color: #ff5a5f;
+$accent-color: #c1839f;
 
-
+$background-color: #f5f5f5;
+$text-color: #3c3c3c;
 
 // ***************************
 // Fonts
 // ***************************
+$heading-font: font-family: 'Montserrat', sans-serif;
+$p-font: font-family: 'Libre Baskerville', serif;
