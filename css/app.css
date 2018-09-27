@@ -1,0 +1,44 @@
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+  
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    background: #444;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+  
+.nav-logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 60px;
+    margin-right: auto;
+    border-radius: 30px;
+    background: grey;
+}
+  
+.nav-links {
+    margin-right: 60px;
+    align-self: center;
+}
+.nav-links a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+}
+  
+.main-site-header {
+    width: 100%;
+    height: 400px;
+    background: lightgrey;
+}
+.main-site-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    padding-top: 150px;
+}
