@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Montserrat:400,700");
+
 footer {
   display: flex;
   width: 100%;
@@ -58,11 +59,18 @@ footer {
     text-decoration: none;
     color: white; }
 
-.main-site-header {
+.main-site-header, .smaller-header {
   width: 100%;
   height: 400px;
   background: lightgrey; }
-  .main-site-header h1 {
+  .main-site-header h1, .smaller-header h1 {
     margin: 0;
     font-size: 2.5em;
     padding-top: 150px; }
+
+.smaller-header {
+  height: 250px; }
+  .smaller-header h1 {
+    padding-top: 100px; }
+
+
