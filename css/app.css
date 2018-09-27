@@ -1,4 +1,79 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Montserrat:400,700");
+* {
+  box-sizing: border-box; }
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px; }
+
+.employee-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+  @media screen and (max-width: 350px) {
+    .employee-card {
+      flex-direction: column; } }
+
+.employee-card-body {
+  display: flex;
+  flex-direction: column;
+  width: 50%; }
+  .employee-card-body h2 {
+    color: #ff5a5f;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    margin: 0;
+    padding: 0; }
+  .employee-card-body h3 {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding-top: 10px; }
+  .employee-card-body p {
+    font-family: "Libre Baskerville", serif;
+    line-height: 1.8;
+    text-align: justify; }
+  @media screen and (max-width: 350px) {
+    .employee-card-body {
+      width: 100%;
+      padding: 15px; } }
+
+.lucia {
+  background-image: url("../assets/img/lucia.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin: 20px; }
+
+.renald {
+  background-image: url("../assets/img/renald.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin: 20px; }
+
+.shelagh {
+  background-image: url("../assets/img/shelagh.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin: 20px; }
+
+.tien {
+  background-image: url("../assets/img/tien.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin: 20px; }
 
 footer {
   display: flex;
@@ -29,11 +104,6 @@ footer {
         footer ul li a:hover {
           color: #c1839f;
           transform: scale(1.2); }
-
-.wrapper {
-  width: 80%;
-  margin: 0 auto;
-  max-width: 1000px; }
 
 .nav-bar {
   width: 100%;
@@ -72,5 +142,3 @@ footer {
   height: 250px; }
   .smaller-header h1 {
     padding-top: 100px; }
-
-

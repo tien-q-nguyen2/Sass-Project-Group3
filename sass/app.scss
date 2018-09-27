@@ -1,7 +1,8 @@
 @import './base/variables.scss';
 @import './base/mixins.scss';
-@import '.base/general.scss';
+@import './base/general.scss';
 
+@import './components/employee-card.scss';
 @import './components/footer.scss';
 
 .nav-bar {

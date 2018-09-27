@@ -25,3 +25,13 @@
         background-size: cover;
         background-position: center;
 }
+
+@mixin makeEmployeeCard($img-path){
+    background-image: url($img-path);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
