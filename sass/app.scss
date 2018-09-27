@@ -1,4 +1,8 @@
 @import './base/variables.scss';
+@import './base/mixins.scss';
+
+
+@import './components/footer.scss';
 
 .wrapper {
     width: 80%;
@@ -49,6 +53,7 @@
     }
 }
 
+<<<<<<< HEAD
 .main-site-header {
     @extend %header;
 }
@@ -96,6 +101,8 @@ footer {
         }
     }
 }
+=======
+>>>>>>> e3718aa20f79230826821e76b18218e59b8ad2ed
 
 ///// Mix-ins /////
 //-- Takes in the gradient's degree, the percentage of the background image where
