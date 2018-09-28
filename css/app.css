@@ -120,10 +120,6 @@ article {
 index page   
 photos: Unsplash 
 **************************/
-.header {
-  width: 100%;
-  height: 600px; }
-
 .box,
 .blog-name,
 .blog-content {
@@ -167,6 +163,9 @@ photos: Unsplash
 .box a,
 .blog-name a {
   text-decoration: none;
+  color: #ff5a5f; }
+
+h1 {
   color: black; }
 
 footer {
