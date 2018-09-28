@@ -36,42 +36,38 @@ article {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 1.3em; }
-
-.nav-brand {
-  display: flex;
-  align-items: center; }
-
-.nav-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80px;
-  height: 80px;
-  margin-left: 60px;
-  margin-right: auto;
-  border-radius: 50%;
-  border: 1px solid #3c3c3c;
-  background: #f5f5f5; }
-  .nav-logo a {
-    color: #3c3c3c; }
-
-.nav-brand-name {
-  padding: 0 20px; }
-  .nav-brand-name a {
-    text-decoration: none;
-    color: #f5f5f5; }
-
-.nav-links {
-  margin-right: 60px;
-  align-self: center; }
-  .nav-links a {
-    font-size: 1.1em;
-    text-decoration: none;
-    color: #f5f5f5;
-    transition: 0.4s; }
-    .nav-links a:hover {
-      border-top: 2px solid #f5f5f5;
-      border-bottom: 2px solid #f5f5f5; }
+  .nav-bar .nav-brand {
+    display: flex;
+    align-items: center; }
+    .nav-bar .nav-brand .nav-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      height: 80px;
+      margin-left: 60px;
+      margin-right: auto;
+      border-radius: 50%;
+      border: 1px solid #3c3c3c;
+      background: #f5f5f5; }
+      .nav-bar .nav-brand .nav-logo a {
+        color: #3c3c3c; }
+    .nav-bar .nav-brand .nav-brand-name {
+      padding: 0 20px; }
+      .nav-bar .nav-brand .nav-brand-name a {
+        text-decoration: none;
+        color: #f5f5f5; }
+  .nav-bar .nav-links {
+    margin-right: 60px;
+    align-self: center; }
+    .nav-bar .nav-links a {
+      font-size: 1.1em;
+      text-decoration: none;
+      color: #f5f5f5;
+      transition: 0.4s; }
+      .nav-bar .nav-links a:hover {
+        border-top: 2px solid #f5f5f5;
+        border-bottom: 2px solid #f5f5f5; }
 
 .employee-card {
   display: flex;
