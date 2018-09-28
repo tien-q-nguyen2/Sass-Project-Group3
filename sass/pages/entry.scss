@@ -25,18 +25,20 @@
 
 .smaller-header-1 {
     @extend %smaller-header;
-    @include complexBGImage("../assets/img/blog1hero.jpg", 90deg, black, transparent);
+    @include complexBGImage("../assets/img/blog1.jpg", 90deg, black, transparent);
+    background-position: 50% 60%;
 }
   
 .smaller-header-2 {
     @extend %smaller-header;
-    @include complexBGImage("../assets/img/blog2hero.jpg", 90deg, black, transparent);
+    @include complexBGImage("../assets/img/blog2.jpg", 90deg, black, transparent);
 
 }
 
 .smaller-header-3 {
     @extend %smaller-header;
-    @include complexBGImage("../assets/img/blog3hero.jpg", 90deg, black, transparent);
+    @include complexBGImage("../assets/img/blog3.jpg", 90deg, black, transparent);
+    background-position: 50% 60%;
 }
 
 article {
