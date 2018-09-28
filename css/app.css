@@ -25,19 +25,18 @@
     color: white; }
 
 .smaller-header-1 {
-  background: linear-gradient(90deg, black, transparent), url("../assets/img/blog1hero.jpg");
+  background: linear-gradient(90deg, black, transparent), url("../assets/img/blog1.jpg");
   background-size: cover;
-  background-position: center; }
+  background-position: 50% 60%; }
 
 .smaller-header-2 {
-  background: linear-gradient(90deg, black, transparent), url("../assets/img/blog2hero.jpg");
-  background-size: cover;
-  background-position: center; }
+  background: linear-gradient(90deg, black, transparent), url("../assets/img/blog2.jpg");
+  background-size: cover; }
 
 .smaller-header-3 {
-  background: linear-gradient(90deg, black, transparent), url("../assets/img/blog3hero.jpg");
+  background: linear-gradient(90deg, black, transparent), url("../assets/img/blog3.jpg");
   background-size: cover;
-  background-position: center; }
+  background-position: 50% 60%; }
 
 article {
   padding-top: 100px;
@@ -170,10 +169,14 @@ photos: Unsplash
   flex-wrap: wrap; }
 
 .box {
-  width: 216px;
+  width: 215px;
   border: 1px solid #EEEEEE;
   height: 215px;
   margin-right: 40px; }
+
+.box img {
+  height: 100%;
+  width: 100%; }
 
 .blog-content {
   display: flex;

@@ -19,10 +19,15 @@ photos: Unsplash
 }
 
 .box {    
-    width: 216px;
+    width: 215px;
     border: 1px solid #EEEEEE;
     height: 215px;
     margin-right: 40px;
+}
+
+.box img {
+    height: 100%;
+    width: 100%;
 }
 
 .blog-content {
