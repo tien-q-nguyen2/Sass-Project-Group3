@@ -1,8 +1,7 @@
 
 
 /*************************
-index page   
-photos: Unsplash 
+index page
 **************************/
 
 .box,
@@ -19,13 +18,13 @@ photos: Unsplash
     width: 216px;
     border: 1px solid #EEEEEE;
     height: 215px;
+    background:red;
+
     margin-right: 40px;
 }
 
 .blog-content {
     margin: 100px 0;
- 
-   
 
     p {
         color: #3C3C3C;
@@ -57,3 +56,21 @@ photos: Unsplash
     color: black;
 }
 
+
+/*************************
+About page
+**************************/
+
+.about-page {
+    .box img {
+        width: 216px;
+        height: 215px;
+    }
+}
+
+.about-page {
+    .main-site-header {
+        background-image: url('../img/about-hero.jpg');
+        background-position: 40% 15%;
+    }
+}
