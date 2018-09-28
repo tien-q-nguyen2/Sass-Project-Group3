@@ -1,0 +1,76 @@
+
+
+/*************************
+index page
+**************************/
+
+.box,
+    .blog-name,
+    .blog-content {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {    
+    width: 216px;
+    border: 1px solid #EEEEEE;
+    height: 215px;
+    background:red;
+
+    margin-right: 40px;
+}
+
+.blog-content {
+    margin: 100px 0;
+
+    p {
+        color: #3C3C3C;
+    }
+}
+
+.blog-name {    
+    width: 60%;
+    min-width: 230px;
+    height: 215px;
+}
+
+.blog-name h2,
+    .blog-name h3,
+    .blog-name p {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.blog-name h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.box a,
+    .blog-name a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*************************
+About page
+**************************/
+
+.about-page {
+    .box img {
+        width: 216px;
+        height: 215px;
+    }
+}
+
+.about-page {
+    .main-site-header {
+        background-image: url('../img/about-hero.jpg');
+        background-position: 40% 15%;
+    }
+}
