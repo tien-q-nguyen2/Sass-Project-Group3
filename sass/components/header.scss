@@ -1,8 +1,5 @@
 
-
-
-
- .index-header{
+ .index-header {
         width: 100%;
         height: 400px;
         @include simpleBGImage('../assets/img/blog-hero.jpg');
@@ -12,17 +9,15 @@
         margin-top: 0;
         padding-top: 150px;
 
-
-
     }
 }
 
 
  .about-header {
-    width: 100%;
-    height: 300px;
-    @include simpleBGImage('../assets/img/about-hero.jpg');
-    background-position: 100% 30%;
+         width: 100%;
+         height: 300px;
+         @include simpleBGImage('../assets/img/about-hero.jpg');
+         background-position: 100% 30%;
     h1 {
         color:  $primary-color;
         background: white;
