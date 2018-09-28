@@ -47,51 +47,46 @@ article {
 .nav-bar {
   width: 100%;
   height: 100px;
-  background: #087e8b;
+  background-image: linear-gradient(to right, #087e8b 55%, #c1839f, #ff5a5f);
   color: #f5f5f5;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
   font-size: 1.3em; }
-
-.nav-brand {
-  display: flex;
-  align-items: center; }
-
-.nav-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80px;
-  height: 80px;
-  margin-left: 60px;
-  margin-right: auto;
-  border-radius: 50%;
-  border: 1px solid #3c3c3c;
-  background: #f5f5f5; }
-  .nav-logo a {
-    color: #3c3c3c; }
-
-.nav-brand-name {
-  padding: 0 20px; }
-  .nav-brand-name a {
-    text-decoration: none;
-    color: #f5f5f5; }
-
-.nav-links {
-  margin-right: 60px;
-  align-self: center; }
-  .nav-links a {
-    font-size: 1.1em;
-    text-decoration: none;
-    color: #f5f5f5;
-    transition: 0.4s; }
-    .nav-links a:hover {
-      border-top: 2px solid #f5f5f5;
-      border-bottom: 2px solid #f5f5f5; }
+  .nav-bar .nav-brand {
+    display: flex;
+    align-items: center; }
+    .nav-bar .nav-brand .nav-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      height: 80px;
+      margin-left: 60px;
+      margin-right: auto;
+      border-radius: 50%;
+      border: 1px solid #3c3c3c;
+      background: #f5f5f5; }
+      .nav-bar .nav-brand .nav-logo a {
+        color: #3c3c3c; }
+    .nav-bar .nav-brand .nav-brand-name {
+      padding: 0 20px; }
+      .nav-bar .nav-brand .nav-brand-name a {
+        text-decoration: none;
+        color: #f5f5f5; }
+  .nav-bar .nav-links {
+    margin-right: 60px;
+    align-self: center; }
+    .nav-bar .nav-links a {
+      font-size: 1.1em;
+      text-decoration: none;
+      color: #f5f5f5;
+      transition: 0.4s; }
+      .nav-bar .nav-links a:hover {
+        border-top: 2px solid #f5f5f5;
+        border-bottom: 2px solid #f5f5f5; }
 
 .employee-card {
   display: flex;
@@ -184,26 +179,26 @@ photos: Unsplash
   display: flex;
   justify-content: center; }
   .blog-content p {
-    color: #3C3C3C;
+    color: #3c3c3c;
     font-size: 19px;
-    font-family: 'Libre Baskerville'; }
+    font-family: "Libre Baskerville", serif; }
 
 .blog-name {
   width: 60%;
   min-width: 230px;
-  height: 215px; }
+  margin-bottom: 50px; }
 
 .blog-name h2,
 .blog-name h3,
 .blog-name p {
-  margin: 0;
+  margin: 10px 0;
   padding: 0;
   width: 100%; }
 
 .blog-name h2 {
   font-size: 40px;
   font-weight: bold;
-  font-family: 'Libre Montserrat'; }
+  font-family: "Montserrat", sans-serif; }
 
 .box a,
 .blog-name a {
@@ -243,6 +238,12 @@ footer {
           color: #c1839f;
           transform: scale(1.2); }
 
+.index-header h1, .about-header h1 {
+  margin-top: 150px;
+  padding: 0 15px;
+  font-size: 46px;
+  display: inline-block; }
+
 .index-header {
   width: 100%;
   height: 400px;
@@ -250,22 +251,14 @@ footer {
   background-size: cover;
   background-position: center; }
   .index-header h1 {
-    margin-top: 0;
-    padding-top: 150px; }
+    color: #087e8b; }
 
 .about-header {
   width: 100%;
   height: 300px;
-  background: url("../assets/img/about-hero.jpg");
+  background: linear-gradient(180deg, transparent, #3c3c3c), url("../assets/img/about-hero.jpg");
   background-size: cover;
-  background-position: center;
   background-position: 100% 30%; }
   .about-header h1 {
-    color: #087e8b;
-    background: white;
-    display: inline-block;
-    margin-top: 150px;
-    padding: 0 10px; }
-
-.index-header h1 {
-  color: #087e8b; }
+    text-shadow: 1px 1px 2px #087e8b;
+    color: #f5f5f5; }
