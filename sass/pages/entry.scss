@@ -1,25 +1,52 @@
 %header {
     width: 100%;
     height: 400px;
-    background: $primary-color;
+    // @include simpleBGImage('../assets/img/blog1.jpg');
 
     h1 {
+        // font-family: $heading-font;
         margin: 0;
         font-size: 2.5em;
-        padding-top: 150px;
+        // padding-top: 150px;
     }
 }
 
-.smaller-header {
+%smaller-header {
     @extend %header;
+    // @include simpleBGImage('../assets/img/blog1.jpg');
+    // background: $primary-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
     height: 250px;
 
     h1 {
-        padding-top: 100px;
+        // padding-top: 100px;
     }
 }
 
 
+.smaller-header-1 {
+    @extend %smaller-header;
+    @include simpleBGImage2('../assets/img/blog1.jpg');
+    // background: url('../assets/img/blog2.jpg');
+}
+
+.smaller-header-2 {
+    @extend %smaller-header;
+    @include simpleBGImage2('../assets/img/blog2.jpg');
+}
+
+.smaller-header-3 {
+    @extend %smaller-header;
+    @include simpleBGImage2('../assets/img/blog3.jpg');
+}
+
+
+
 article {
-    padding: 30px, 20px;
+    padding: 150px;
+    font-family: $p-font;
 }

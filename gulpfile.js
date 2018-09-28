@@ -6,11 +6,13 @@ gulp.task('test', function() {
 })
 
 gulp.task('style', function() {
-    gulp.src('./sass/app.scss')
-        .pipe(sass())
-        .pipe(gulp.dest('./css'))
+
+
+    return gulp.src('./sass/app.scss')
+       .pipe(sass())
+    .pipe(gulp.dest('./css'))
 })
 
 gulp.task('watch', function() {
-    gulp.watch('./sass/**/*.scss', ['style'])
+    return gulp.watch('./sass/**/*.scss', ['style'])
 })
