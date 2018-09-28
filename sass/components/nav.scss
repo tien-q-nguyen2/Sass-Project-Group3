@@ -10,53 +10,59 @@
     font-family: $heading-font;
     font-weight: bold;
     font-size: 1.3em;
-}
 
-.nav-brand {
+    .nav-brand {
     display: flex;
     align-items: center;
-}
 
-.nav-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80px;
-    height: 80px;
-    margin-left: 60px;
-    margin-right: auto;
-    border-radius: 50%;
-    border: 1px solid $text-color;
-    background: $background-color;
+        .nav-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            height: 80px;
+            margin-left: 60px;
+            margin-right: auto;
+            border-radius: 50%;
+            border: 1px solid $text-color;
+            background: $background-color;
+        
+            a {
+                color: $text-color;
+            }
+        }
 
-    a {
-        color: $text-color;
+        .nav-brand-name {
+            padding: 0 20px;
+        
+            a {
+                text-decoration: none;
+                color: $background-color;
+            }
+        }
     }
-}
 
-.nav-brand-name {
-    padding: 0 20px;
-
-    a {
-        text-decoration: none;
-        color: $background-color;
-    }
-}
-
-.nav-links {
-    margin-right: 60px;
-    align-self: center;
-
-    a {
-        font-size: 1.1em;
-        text-decoration: none;
-        color: $background-color;
-        transition: 0.4s;
-
-        &:hover {
-            border-top: 2px solid $background-color;
-            border-bottom: 2px solid $background-color;
+    .nav-links {
+        margin-right: 60px;
+        align-self: center;
+    
+        a {
+            font-size: 1.1em;
+            text-decoration: none;
+            color: $background-color;
+            transition: 0.4s;
+    
+            &:hover {
+                border-top: 2px solid $background-color;
+                border-bottom: 2px solid $background-color;
+            }
         }
     }
 }
+
+
+
+
+
+
 
