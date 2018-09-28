@@ -23,7 +23,6 @@
         linear-gradient(180deg, $color1, $color2),
         url($url);
         background-size: cover;
-        background-position: center;
 }
 
 @mixin makeEmployeeCard($img-path){
