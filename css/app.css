@@ -139,7 +139,8 @@ photos: Unsplash
   display: flex;
   justify-content: center; }
   .blog-content p {
-    color: #3C3C3C; }
+    color: #3C3C3C;
+    font-size: 19px; }
 
 .blog-name {
   width: 60%;

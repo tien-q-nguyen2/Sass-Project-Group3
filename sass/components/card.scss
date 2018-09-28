@@ -25,12 +25,12 @@ photos: Unsplash
 .blog-content {
      display: flex;
      justify-content: center;
-
- 
    
 
     p {
         color: #3C3C3C;
+        font-size: 19px;
+       
     }
 }
 
@@ -54,14 +54,9 @@ photos: Unsplash
 }
 
 .box a,
-    .blog-name a{
+    .blog-name a {
     text-decoration: none;
     color: black;
 }
 
 
-// .content {
-//     display:flex;
-//     justify-content: center;
-
-// }
