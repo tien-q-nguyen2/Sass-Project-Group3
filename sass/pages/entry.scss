@@ -6,20 +6,41 @@
     h1 {
         margin: 0;
         font-size: 2.5em;
-        padding-top: 150px;
+        // padding-top: 150px;
     }
 }
 
-.smaller-header {
+%smaller-header {
     @extend %header;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     height: 250px;
 
-    h1 {
-        padding-top: 100px;
+    a, h1, p {
+        color: white;
     }
 }
 
+.smaller-header-1 {
+    @extend %smaller-header;
+    @include complexBGImage("../assets/img/blog1hero.jpg", 90deg, black, transparent);
+}
+  
+.smaller-header-2 {
+    @extend %smaller-header;
+    @include complexBGImage("../assets/img/blog2hero.jpg", 90deg, black, transparent);
+
+}
+
+.smaller-header-3 {
+    @extend %smaller-header;
+    @include complexBGImage("../assets/img/blog3hero.jpg", 90deg, black, transparent);
+}
 
 article {
-    padding: 30px, 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: $p-font;
 }
