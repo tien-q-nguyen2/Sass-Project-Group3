@@ -1,9 +1,9 @@
 ///// Mix-ins /////
 //-- Takes in the gradient's degree, the percentage of the background image where
 // the gradient starts, the start color and the end color; the URL comes first
-@mixin complexBGImage($url, $deg, $start, $color1, $color2) {
+@mixin complexBGImage($url, $deg, $color1, $color2) {
     background: 
-        linear-gradient($deg, $color1 $start, $color2),
+        linear-gradient($deg, $color1, $color2),
         url($url);
         background-size: cover;
         background-position: center;
