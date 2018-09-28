@@ -167,7 +167,7 @@ photos: Unsplash
 .blog-name {
   width: 60%;
   min-width: 230px;
-  height: 215px; }
+  margin-bottom: 50px; }
 
 .blog-name h2,
 .blog-name h3,
