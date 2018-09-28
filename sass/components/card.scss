@@ -31,9 +31,9 @@ photos: Unsplash
    
 
     p {
-        color: #3C3C3C;
+        color: $text-color;
         font-size: 19px;
-        font-family: 'Libre Baskerville';
+        font-family: $p-font;
        
     }
 }
@@ -48,7 +48,7 @@ photos: Unsplash
 .blog-name h2,
     .blog-name h3,
     .blog-name p {
-    margin: 0;
+    margin: 10px 0;
     padding: 0;
     width: 100%;
 }
@@ -56,14 +56,14 @@ photos: Unsplash
 .blog-name h2 {
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Libre Montserrat';
+    font-family: $heading-font;
     
 }
 
 .box a,
     .blog-name a {
     text-decoration: none;
-    color: #ff5a5f;
+    color: $secondary-color;
 }
 
 h1 {
