@@ -117,7 +117,8 @@ article {
   margin: 20px; }
 
 /*************************
-index page
+index page   
+photos: Unsplash 
 **************************/
 .box,
 .blog-name,
@@ -132,7 +133,6 @@ index page
   width: 216px;
   border: 1px solid #EEEEEE;
   height: 215px;
-  background: red;
   margin-right: 40px; }
 
 .blog-content {
@@ -160,17 +160,6 @@ index page
 .blog-name a {
   text-decoration: none;
   color: black; }
-
-/*************************
-About page
-**************************/
-.about-page .box img {
-  width: 216px;
-  height: 215px; }
-
-.about-page .main-site-header {
-  background-image: url("../img/about-hero.jpg");
-  background-position: 40% 15%; }
 
 footer {
   display: flex;
