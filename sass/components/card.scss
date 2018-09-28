@@ -5,12 +5,7 @@ index page
 photos: Unsplash 
 **************************/
 
-.header {
-   width: 100%;
-   height: 600px;
-   
 
-}
 
 
 .box,
@@ -60,13 +55,16 @@ photos: Unsplash
 .blog-name h2 {
     font-size: 40px;
     font-weight: bold;
-   font-family: 'Libre Montserrat';
+    font-family: 'Libre Montserrat';
+    
 }
 
 .box a,
     .blog-name a {
     text-decoration: none;
-    color: black;
+    color: #ff5a5f;
 }
 
-
+h1 {
+    color: black;  
+}

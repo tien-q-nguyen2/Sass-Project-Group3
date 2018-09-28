@@ -2,7 +2,7 @@
 
 
 
- .main-site-header {
+ .index-header{
         width: 100%;
         height: 400px;
         @include simpleBGImage('../assets/img/blog-hero.jpg');
@@ -31,8 +31,13 @@
         padding: 0 10px;
 
 
-
  }
     
 }
 
+.index-header {
+    h1 {
+       color: $primary-color; 
+    }
+   
+}
