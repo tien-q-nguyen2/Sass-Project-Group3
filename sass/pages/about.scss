@@ -1,0 +1,18 @@
+body {
+    background: $background-color;
+    color: $text-color;
+}
+
+.about-header {
+    @include normalBGImage('../assets/img/about-hero.jpg', transparent, $secondary-color);
+    background-position: 50% 30%;
+    font-family: $heading-font;
+    color: $background-color;
+    text-shadow: 1px 1px 3px $text-color;
+
+    h1 {
+        font-size: 4em;
+    }
+}
+
+

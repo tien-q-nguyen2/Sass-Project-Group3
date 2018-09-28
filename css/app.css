@@ -24,21 +24,42 @@
 article {
   padding: 30px, 20px; }
 
+body {
+  background: #f5f5f5;
+  color: #3c3c3c; }
+
+.about-header {
+  background: linear-gradient(180deg, transparent, #ff5a5f), url("../assets/img/about-hero.jpg");
+  background-size: cover;
+  background-position: 50% 30%;
+  font-family: "Montserrat", sans-serif;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 3px #3c3c3c; }
+  .about-header h1 {
+    font-size: 4em; }
+
 .nav-bar {
   width: 100%;
   height: 100px;
-  background: #444;
+  background: #087e8b;
   display: flex;
   flex-direction: row;
   align-items: center; }
 
 .nav-logo {
-  width: 60px;
-  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
   margin-left: 60px;
   margin-right: auto;
-  border-radius: 30px;
-  background: grey; }
+  border-radius: 50%;
+  background: #f5f5f5; }
+  .nav-logo a {
+    color: #ff5a5f; }
+    .nav-logo a:hover {
+      color: #c1839f; }
 
 .nav-links {
   margin-right: 60px;
