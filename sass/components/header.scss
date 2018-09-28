@@ -1,43 +1,32 @@
+%header-text {
+    margin-top: 150px;
+    padding: 0 15px;
+    font-size: 46px;
+    display:inline-block;
+}
 
-
-
-
- .index-header{
-        width: 100%;
-        height: 400px;
-        @include simpleBGImage('../assets/img/blog-hero.jpg');
-
+.index-header{
+    width: 100%;
+    height: 400px;
+    @include simpleBGImage('../assets/img/blog-hero.jpg');
 
     h1 {
-        margin-top: 0;
-        padding-top: 150px;
-
-
-
+        @extend %header-text;
+        color: $primary-color;
     }
 }
 
-
- .about-header {
+.about-header {
     width: 100%;
     height: 300px;
-    @include simpleBGImage('../assets/img/about-hero.jpg');
+    @include normalBGImage('../assets/img/about-hero.jpg', transparent, $text-color);
     background-position: 100% 30%;
+
     h1 {
-        color:  $primary-color;
-        background: white;
-        display:inline-block;
-        margin-top: 150px;
-        padding: 0 10px;
-
-
- }
-    
-}
-
-.index-header {
-    h1 {
-       color: $primary-color; 
+        @extend %header-text;
+        text-shadow: 1px 1px 2px $primary-color;
+        color: $background-color;
     }
-   
 }
+
+
