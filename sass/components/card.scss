@@ -5,6 +5,14 @@ index page
 photos: Unsplash 
 **************************/
 
+.header {
+   width: 100%;
+   height: 600px;
+   
+
+}
+
+
 .box,
     .blog-name,
     .blog-content {
@@ -30,6 +38,7 @@ photos: Unsplash
     p {
         color: #3C3C3C;
         font-size: 19px;
+        font-family: 'Libre Baskerville';
        
     }
 }
@@ -51,6 +60,7 @@ photos: Unsplash
 .blog-name h2 {
     font-size: 40px;
     font-weight: bold;
+   font-family: 'Libre Montserrat';
 }
 
 .box a,
