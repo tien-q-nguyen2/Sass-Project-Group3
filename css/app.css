@@ -136,7 +136,8 @@ photos: Unsplash
   margin-right: 40px; }
 
 .blog-content {
-  margin: 100px 0; }
+  display: flex;
+  justify-content: center; }
   .blog-content p {
     color: #3C3C3C; }
 

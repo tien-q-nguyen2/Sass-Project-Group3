@@ -23,7 +23,9 @@ photos: Unsplash
 }
 
 .blog-content {
-    margin: 100px 0;
+     display: flex;
+     justify-content: center;
+
  
    
 
@@ -57,3 +59,9 @@ photos: Unsplash
     color: black;
 }
 
+
+// .content {
+//     display:flex;
+//     justify-content: center;
+
+// }
