@@ -27,18 +27,39 @@ article {
 .nav-bar {
   width: 100%;
   height: 100px;
-  background: #444;
+  background: #087e8b;
+  color: #f5f5f5;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.3em; }
+
+.nav-brand {
+  display: flex;
   align-items: center; }
 
 .nav-logo {
-  width: 60px;
-  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
   margin-left: 60px;
   margin-right: auto;
-  border-radius: 30px;
-  background: grey; }
+  border-radius: 50%;
+  border: 1px solid #3c3c3c;
+  background: #f5f5f5; }
+  .nav-logo a {
+    color: #3c3c3c; }
+
+.nav-brand-name {
+  padding: 0 20px; }
+  .nav-brand-name a {
+    text-decoration: none;
+    color: #f5f5f5; }
 
 .nav-links {
   margin-right: 60px;
@@ -46,7 +67,11 @@ article {
   .nav-links a {
     font-size: 1.1em;
     text-decoration: none;
-    color: white; }
+    color: #f5f5f5;
+    transition: 0.4s; }
+    .nav-links a:hover {
+      border-top: 2px solid #f5f5f5;
+      border-bottom: 2px solid #f5f5f5; }
 
 .employee-card {
   display: flex;
