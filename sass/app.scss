@@ -1,11 +1,11 @@
 @import './base/variables.scss';
-@import './pages/entry.scss';
+@import './base/mixins.scss';
+@import './base/general.scss';
 
-.wrapper {
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1000px;
-}
+@import './pages/entry.scss';
+@import './components/employee-card.scss';
+@import './components/card.scss';
+@import './components/footer.scss';
 
 .nav-bar {
     width: 100%;
@@ -38,77 +38,7 @@
     }
 }
 
-.main-site-header {
-    width: 100%;
-    height: 400px;
-    background: lightgrey;
 
-    h1 {
-        margin: 0;
-        font-size: 2.5em;
-        padding-top: 150px;
-    }
-}
 
-footer {
-    width: 100%;
-    height: 100px;
-    background: #444;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
 
-    ul {
-        list-style: none;
-        display: flex;
-        justify-content: flex-end;
-
-        li {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-left: 15px;
-            width: 60px;
-            height: 60px;
-            border-radius: 30px;
-            background: grey;
-            text-align: center;
-
-            a {
-                padding: 10px;
-                font-size: 30px;
-                color: white;
-            }
-        }
-    }
-}
-
-///// Mix-ins /////
-//-- Takes in the gradient's degree, the percentage of the background image where
-// the gradient starts, the start color and the end color; the URL comes first
-@mixin complexBGImage($url, $deg, $start, $color1, $color2) {
-    background: 
-        linear-gradient($deg, $color1 $start, $color2),
-        url($url);
-        background-size: cover;
-        background-position: center;
-}
-
-//-- Just take in the URL, no gradient effect
-@mixin simpleBGImage($url){
-    background: 
-        url($url);
-        background-size: cover;
-        background-position: center;
-}
-
-//-- Take in a URL and start and end colors, with gradient goes from top to bottom
-@mixin normalBGImage($url, $color1, $color2){
-    background: 
-        linear-gradient(180deg, $color1, $color2),
-        url($url);
-        background-size: cover;
-        background-position: center;
-}

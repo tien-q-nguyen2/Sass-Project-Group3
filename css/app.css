@@ -1,7 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Montserrat:400,700");
+* {
+  box-sizing: border-box; }
+
 .wrapper {
   width: 80%;
   margin: 0 auto;
   max-width: 1000px; }
+
+.employee-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+  @media screen and (max-width: 350px) {
+    .employee-card {
+      flex-direction: column; } }
+
+.employee-card-body {
+  display: flex;
+  flex-direction: column;
+  width: 50%; }
+  .employee-card-body h2 {
+    color: #ff5a5f;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    margin: 0;
+    padding: 0; }
+  .employee-card-body h3 {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding-top: 10px; }
+  .employee-card-body p {
+    font-family: "Libre Baskerville", serif;
+    line-height: 1.8;
+    text-align: justify; }
+  @media screen and (max-width: 350px) {
+    .employee-card-body {
+      width: 100%;
+      padding: 15px; } }
+
+.lucia {
+  background-image: url("../assets/img/lucia.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin: 20px; }
+
+.renald {
+  background-image: url("../assets/img/renald.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin: 20px; }
+
+.shelagh {
+  background-image: url("../assets/img/shelagh.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin: 20px; }
+
+.tien {
+  background-image: url("../assets/img/tien.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin: 20px; }
+
+/*************************
+index page
+**************************/
+.box,
+.blog-name,
+.blog-content {
+  margin: 20px 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.box {
+  width: 216px;
+  border: 1px solid #EEEEEE;
+  height: 215px;
+  background: red;
+  margin-right: 40px; }
+
+.blog-content {
+  margin: 100px 0; }
+  .blog-content p {
+    color: #3C3C3C; }
+
+.blog-name {
+  width: 60%;
+  min-width: 230px;
+  height: 215px; }
+
+.blog-name h2,
+.blog-name h3,
+.blog-name p {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+.blog-name h2 {
+  font-size: 40px;
+  font-weight: bold; }
+
+.box a,
+.blog-name a {
+  text-decoration: none;
+  color: black; }
+
+/*************************
+About page
+**************************/
+.about-page .box img {
+  width: 216px;
+  height: 215px; }
+
+.about-page .main-site-header {
+  background-image: url("../img/about-hero.jpg");
+  background-position: 40% 15%; }
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background: #3c3c3c;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end; }
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; }
+    footer ul li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 15px;
+      width: 60px;
+      height: 60px;
+      border-radius: 30px;
+      text-align: center; }
+      footer ul li a {
+        padding: 10px;
+        font-size: 30px;
+        color: #f5f5f5;
+        transition: 0.3s; }
+        footer ul li a:hover {
+          color: #c1839f;
+          transform: scale(1.2); }
 
 .nav-bar {
   width: 100%;
@@ -27,38 +185,16 @@
     text-decoration: none;
     color: white; }
 
-.main-site-header {
+.main-site-header, .smaller-header {
   width: 100%;
   height: 400px;
   background: lightgrey; }
-  .main-site-header h1 {
+  .main-site-header h1, .smaller-header h1 {
     margin: 0;
     font-size: 2.5em;
     padding-top: 150px; }
 
-footer {
-  width: 100%;
-  height: 100px;
-  background: #444;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end; }
-  footer ul {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end; }
-    footer ul li {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: 15px;
-      width: 60px;
-      height: 60px;
-      border-radius: 30px;
-      background: grey;
-      text-align: center; }
-      footer ul li a {
-        padding: 10px;
-        font-size: 30px;
-        color: white; }
+.smaller-header {
+  height: 250px; }
+  .smaller-header h1 {
+    padding-top: 100px; }

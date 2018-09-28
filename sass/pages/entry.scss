@@ -1,4 +1,4 @@
-.main-site-header {
+%header {
     width: 100%;
     height: 400px;
     background: $primary-color;
@@ -10,6 +10,14 @@
     }
 }
 
+.smaller-header {
+    @extend %header;
+    height: 250px;
+
+    h1 {
+        padding-top: 100px;
+    }
+}
 
 
 article {
