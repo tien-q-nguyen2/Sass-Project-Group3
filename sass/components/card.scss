@@ -1,74 +1,75 @@
-
-
-/*************************
-index page   
-photos: Unsplash 
-**************************/
-
-
-
-
-.box,
-    .blog-name,
-    .blog-content {
+%starter {
     margin: 20px 0;
     display: flex;
-    justify-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.box {    
+
+.box {
+    @extend %starter;
+    justify-content: flex-start;
     width: 215px;
     border: 1px solid #EEEEEE;
     height: 215px;
     margin-right: 40px;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        color: $secondary-color;
+    }
 }
 
-.box img {
-    height: 100%;
-    width: 100%;
+.blog-name {
+    @extend %starter;
+    justify-content: flex-start;
+    width: 60%;
+    min-width: 230px;
+    margin-bottom: 50px;
+
+    h2 {
+        margin: 10px 0;
+        padding: 0;
+        width: 100%;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: $heading-font;
+    }
+
+    h3 {
+        margin: 10px 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    p {
+        margin: 10px 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+        color: $secondary-color;
+    }
+
 }
 
 .blog-content {
-     display: flex;
-     justify-content: center;
-   
-
+    @extend %starter;
+    justify-content: center;
+    
     p {
         color: $text-color;
         font-size: 19px;
         font-family: $p-font;
        
     }
-}
-
-.blog-name {    
-    width: 60%;
-    min-width: 230px;
-    margin-bottom: 50px;
-
-}
-
-.blog-name h2,
-    .blog-name h3,
-    .blog-name p {
-    margin: 10px 0;
-    padding: 0;
-    width: 100%;
-}
-
-.blog-name h2 {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: $heading-font;
-    
-}
-
-.box a,
-    .blog-name a {
-    text-decoration: none;
-    color: $secondary-color;
 }
 
 h1 {
