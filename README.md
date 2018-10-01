@@ -1,63 +1,32 @@
 # Sass-Project-Group3
 
-Design:
-The design will be clean minimal design with some use of abstract photos as the hero background
+***
 
-Font:
-We will be using Libre Montserrat for heading text
-We will be using Libre Baskerville for paragraph text
+## Group Members
 
-Color:
-Primary color: #087E8B (blueish)
-Secondary color: #FF5A5F (pinkish)
-Accent color: #C1839F (purpleish)
+Lucia Longo
+Renald Qereshniku
+Shelagh Storla
+Tien Nguyen
 
-Light (background color): #F5F5F5 (whitish)
-Dark (text body color): #3C3C3C (blackish)
+***
 
+Images from Unsplash
 
-Navigation:
-background color: #F5F5F5 (whitish)
-logo: Primary color: #087E8B (blueish)
-link: Dark (text body color): #3C3C3C (blackish)
-link:hover: Accent color: #C1839F (purpleish)
-
-Main section:
-background color: #F5F5F5 (whitish)
-text: Dark (text body color): #3C3C3C (blackish)
-
-Footer:
-background: Dark (text body color): #3C3C3C (blackish)
-icons: Secondary color: #FF5A5F (pinkish)
-icons:hover: Accent color: #C1839F (purpleish)
+***
 
 
-logo:
-https://fontawesome.com/icons/book-reader?style=solid
 
-social media icons:
-facebook, instagram, linkedin, twitter
 
-image for blog site name hero background:
-https://images.unsplash.com/photo-1518600654093-2a24cddafa38?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96238af4ac6e58d17d362d5b8b846eb4&auto=format&fit=crop&w=1634&q=80
 
-image for blog 1 main/ blog hero:
-https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=558f2d8bcbb75255175c16b662804de8&auto=format&fit=crop&w=1500&q=80
 
-image for about hero:
-https://images.unsplash.com/photo-1521798761656-4e74e79120ca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38cc294fe605fcf6cbeab1b41835ef74&auto=format&fit=crop&w=1633&q=80
 
-image for blog 2:
-https://images.unsplash.com/photo-1534137667199-675a46e143f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=610613600d356ae190e368d73c81e055&auto=format&fit=crop&w=634&q=80
 
-image for blog 3:
-https://images.unsplash.com/photo-1509650840259-72cd4b94cc3b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5d5ea3f1c80689bcf8eba568eb5ec21d&auto=format&fit=crop&w=500&q=60
 
-About Section:
-Lucia photo: https://images.unsplash.com/photo-1515621061946-eff1c2a352bd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=201965739764d1554eaa299d8a458d7d&auto=format&fit=crop&w=722&q=80
 
-Renald photo: https://images.unsplash.com/photo-1529074723-3167de44a1da?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=10185db19b32104ef7087e23d2a1927f&auto=format&fit=crop&w=675&q=80
 
-Sheela photo: https://images.unsplash.com/photo-1517677129300-07b130802f46?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e19f17c9f3c746f009bfd9f358f03946&auto=format&fit=crop&w=1050&q=80
 
-Tien photo: https://images.unsplash.com/photo-1520341280432-4749d4d7bcf9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce73d2ef291206da938eaf4c43f584ef&auto=format&fit=crop&w=634&q=80
+
+
+
+
