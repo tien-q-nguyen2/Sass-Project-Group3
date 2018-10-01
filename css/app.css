@@ -77,11 +77,17 @@ article {
         color: #f5f5f5; }
         .nav-bar .nav-brand .nav-logo a i {
           font-size: 2em; }
+      @media screen and (max-width: 370px) {
+        .nav-bar .nav-brand .nav-logo {
+          margin-left: 10px; } }
     .nav-bar .nav-brand .nav-brand-name {
-      padding: 0 20px; }
+      padding-left: 20px; }
       .nav-bar .nav-brand .nav-brand-name a {
         text-decoration: none;
         color: #f5f5f5; }
+      @media screen and (max-width: 370px) {
+        .nav-bar .nav-brand .nav-brand-name {
+          display: none; } }
   .nav-bar .nav-links {
     margin-right: 60px;
     align-self: center; }
@@ -93,6 +99,9 @@ article {
       .nav-bar .nav-links a:hover {
         border-top: 2px solid #f5f5f5;
         border-bottom: 2px solid #f5f5f5; }
+  @media screen and (max-width: 370px) {
+    .nav-bar {
+      font-size: 1.1em; } }
 
 .card {
   display: flex;
@@ -205,6 +214,9 @@ footer {
   padding: 0 15px;
   font-size: 46px;
   display: inline-block; }
+  @media screen and (max-width: 370px) {
+    .index-header h1, .about-header h1 {
+      font-size: 36px; } }
 
 .index-header {
   font-family: "Montserrat", sans-serif;
@@ -218,6 +230,9 @@ footer {
     color: #087e8b; }
   .index-header h2, .index-header h3 {
     padding: 0 15px; }
+  @media screen and (max-width: 370px) {
+    .index-header {
+      height: 450px; } }
 
 .about-header {
   font-family: "Montserrat", sans-serif;

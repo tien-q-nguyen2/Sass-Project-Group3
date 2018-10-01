@@ -3,6 +3,10 @@
     padding: 0 15px;
     font-size: 46px;
     display:inline-block;
+
+    @media screen and (max-width: 370px) {
+        font-size: 36px;        
+    }
 }
 
 .index-header{
@@ -20,6 +24,11 @@
     h2, h3 {
         padding: 0 15px;
     }
+
+    @media screen and (max-width: 370px) {
+        height: 450px;    
+    }
+
 }
 
 .about-header {
