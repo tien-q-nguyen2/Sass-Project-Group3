@@ -4,9 +4,9 @@
 
 ## Group Members
 
-Lucia Longo
-Renald Qereshniku
-Shelagh Storla
+Lucia Longo  
+Renald Qereshniku  
+Shelagh Storla  
 Tien Nguyen
 
 ***
