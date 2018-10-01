@@ -1,22 +1,30 @@
 %header-text {
-    margin-top: 150px;
+    margin: 0;
     padding: 0 15px;
     font-size: 46px;
     display:inline-block;
 }
 
 .index-header{
+    font-family: $heading-font;
+    padding-top: 150px;
     width: 100%;
     height: 400px;
     @include simpleBGImage('../assets/img/blog-hero.jpg');
 
     h1 {
         @extend %header-text;
-        color: $primary-color;
+         color: $primary-color;
+    }
+
+    h2, h3 {
+        padding: 0 15px;
     }
 }
 
 .about-header {
+    font-family: $heading-font;
+    padding-top: 150px;
     width: 100%;
     height: 300px;
     @include normalBGImage('../assets/img/about-hero.jpg', transparent, $text-color);
