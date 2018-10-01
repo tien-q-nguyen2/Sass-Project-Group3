@@ -22,11 +22,13 @@
             height: 80px;
             margin-left: 60px;
             margin-right: auto;
-            border-radius: 50%;
-            border: 1px solid $background-color;
 
             a {
                 color: $background-color;
+
+                i {
+                    font-size: 2em;
+                }
             }
         }
 

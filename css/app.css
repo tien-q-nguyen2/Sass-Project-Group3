@@ -68,11 +68,11 @@ article {
       width: 80px;
       height: 80px;
       margin-left: 60px;
-      margin-right: auto;
-      border-radius: 50%;
-      border: 1px solid #f5f5f5; }
+      margin-right: auto; }
       .nav-bar .nav-brand .nav-logo a {
         color: #f5f5f5; }
+        .nav-bar .nav-brand .nav-logo a i {
+          font-size: 2em; }
     .nav-bar .nav-brand .nav-brand-name {
       padding: 0 20px; }
       .nav-bar .nav-brand .nav-brand-name a {
@@ -90,35 +90,43 @@ article {
         border-top: 2px solid #f5f5f5;
         border-bottom: 2px solid #f5f5f5; }
 
-.employee-card {
+.card {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   width: 100%; }
-  @media screen and (max-width: 350px) {
-    .employee-card {
-      flex-direction: column; } }
+  .card .img {
+    height: 200px;
+    width: 200px;
+    margin: 20px; }
+    .card .img img {
+      height: 100%;
+      width: 100%; }
+  .card a {
+    text-decoration: none;
+    color: #ff5a5f; }
 
-.employee-card-body {
+.card-body {
   display: flex;
   flex-direction: column;
   width: 50%; }
-  .employee-card-body h2 {
+  .card-body h2 {
     color: #ff5a5f;
     font-family: "Montserrat", sans-serif;
     font-size: 2em;
     margin: 0;
     padding: 0; }
-  .employee-card-body h3 {
+  .card-body h3 {
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding-top: 10px; }
-  .employee-card-body p {
+  .card-body p {
     font-family: "Libre Baskerville", serif;
     line-height: 1.8;
     text-align: justify; }
   @media screen and (max-width: 350px) {
-    .employee-card-body {
+    .card-body {
       width: 100%;
       padding: 15px; } }
 
@@ -157,59 +165,6 @@ article {
   height: 200px;
   width: 200px;
   margin: 20px; }
-
-.box, .blog-name, .blog-content {
-  margin: 20px 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; }
-
-.box {
-  justify-content: flex-start;
-  width: 215px;
-  border: 1px solid #EEEEEE;
-  height: 215px;
-  margin-right: 40px; }
-  .box img {
-    height: 100%;
-    width: 100%; }
-  .box a {
-    text-decoration: none;
-    color: #ff5a5f; }
-
-.blog-name {
-  justify-content: flex-start;
-  width: 60%;
-  min-width: 230px;
-  margin-bottom: 50px; }
-  .blog-name h2 {
-    margin: 10px 0;
-    padding: 0;
-    width: 100%;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: "Montserrat", sans-serif; }
-  .blog-name h3 {
-    margin: 10px 0;
-    padding: 0;
-    width: 100%; }
-  .blog-name p {
-    margin: 10px 0;
-    padding: 0;
-    width: 100%; }
-  .blog-name a {
-    text-decoration: none;
-    color: #ff5a5f; }
-
-.blog-content {
-  justify-content: center; }
-  .blog-content p {
-    color: #3c3c3c;
-    font-size: 19px;
-    font-family: "Libre Baskerville", serif; }
-
-h1 {
-  color: black; }
 
 footer {
   display: flex;
