@@ -1,9 +1,16 @@
 ///// Mix-ins /////
-//-- Takes in the gradient's degree, the percentage of the background image where
-// the gradient starts, the start color and the end color; the URL comes first
+//-- Takes in the the URL, the gradient's degree and the start and end colors; 
 @mixin complexBGImage($url, $deg, $color1, $color2) {
     background: 
         linear-gradient($deg, $color1, $color2),
+        url($url);
+        background-size: cover;
+}
+
+//-- Take in a URL and start and end colors, with gradient goes from top to bottom
+@mixin normalBGImage($url, $color1, $color2){
+    background: 
+        linear-gradient(180deg, $color1, $color2),
         url($url);
         background-size: cover;
 }
@@ -16,13 +23,6 @@
         background-position: center;
 }
 
-//-- Take in a URL and start and end colors, with gradient goes from top to bottom
-@mixin normalBGImage($url, $color1, $color2){
-    background: 
-        linear-gradient(180deg, $color1, $color2),
-        url($url);
-        background-size: cover;
-}
 
 @mixin makeEmployeeCard($img-path){
     background-image: url($img-path);

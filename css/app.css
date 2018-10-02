@@ -2,17 +2,16 @@
 * {
   box-sizing: border-box; }
 
+p {
+  line-height: 1.6; }
+
 .wrapper {
   width: 80%;
   margin: 0 auto;
   max-width: 1000px; }
-
-p {
-  line-height: 1.6; }
-
-.wrapper .blog-content {
-  margin-top: 80px;
-  margin-bottom: 100px; }
+  .wrapper .blog-content {
+    margin-top: 80px;
+    margin-bottom: 100px; }
 
 .smaller-header-1, .smaller-header-2, .smaller-header-3 {
   width: 100%;
